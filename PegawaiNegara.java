@@ -8,4 +8,16 @@ public class PegawaiNegara {
         this.gajiPokok = gajiPokok;
         this.daerahKekuasaan = daerahKekuasaan;
     }
+
+    public String getNIP() {
+        return this.NIP;
+    }
+
+    public int getGajiPokok() {
+        return this.gajiPokok;
+    }
+
+    public String getDaerahKekuasaan() {
+        return this.daerahKekuasaan;
+    }
 }

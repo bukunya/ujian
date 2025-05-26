@@ -7,5 +7,12 @@ public class RakyatJelata {
         this.jumlahKekayaan = jumlahKekayaan;
     }
 
+    public String getDaerah(){
+        return this.daerah;
+    }
+
+    public int getJumlahKekayaan() {
+        return this.jumlahKekayaan;
+    }
     
 }
