@@ -14,8 +14,9 @@ public class PNS extends PegawaiNegara {
     public void mendataRakyat(RakyatJelata tambah){
         if (tambah.getDaerah().equals(this.getDaerahKekuasaan())) {
             rakyat.add(tambah);
+            System.out.println("Rakyat dengan alamat " + tambah.getDaerah() + " telah didaftarkan");
         } else {
-            System.out.println("Bukan orang sini le");
+            System.out.println("Error: Alamat rakyat tidak sesuai");
         }
     };
     
@@ -27,6 +28,7 @@ public class PNS extends PegawaiNegara {
         for (RakyatJelata orang : rakyat) {
             if (orang.getJumlahKekayaan() <= 100_000_000) {
                 orang.setTambahKekayaan(1_000_000);
+                System.out.println("Bantuan sebesar 1000000 telah disalurkan ke rakyat dengan alamat " + orang.getDaerah());
             }
         }
     }

@@ -26,8 +26,9 @@ public class RakyatJelata {
     }
 
     public void bayarPajak() {
-        APBN.APBN = APBN.APBN + 500_000;
-        this.jumlahKekayaan = this.jumlahKekayaan - 500_000;
+        APBN.APBN = APBN.APBN + (this.getJumlahKekayaan()/10);
+        System.out.println("Pajak sebesar " + (this.getJumlahKekayaan()/10) + "telah dibayarkan oleh rakyat dengan alamat " + this.getDaerah());
+        this.jumlahKekayaan = this.jumlahKekayaan - (this.getJumlahKekayaan()/10);
     }
     
 }
