@@ -1,6 +1,6 @@
 public class DPRD extends PegawaiNegara {
     
-    public DPRD(int NIP, int gajiPokok, String daerahKekuasaan) {
+    public DPRD(String NIP, int gajiPokok, String daerahKekuasaan) {
         super(NIP, gajiPokok, daerahKekuasaan);
     }
 
