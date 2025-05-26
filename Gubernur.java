@@ -14,4 +14,8 @@ public class Gubernur extends PegawaiNegara {
         }
     }
 
+    public void getTunjangan() {
+        this.setGaji(this.getGaji() + (pns.size() * 100_000));
+    }
+
 }

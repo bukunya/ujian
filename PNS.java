@@ -31,4 +31,8 @@ public class PNS extends PegawaiNegara {
         }
     }
 
+    public void getTunjangan() {
+        this.setGaji(this.getGaji() + (this.getGolongan() * this.getGolongan()));
+    }
+
 }

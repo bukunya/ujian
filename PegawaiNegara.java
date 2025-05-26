@@ -18,6 +18,14 @@ public class PegawaiNegara {
         return this.NIP;
     }
 
+    public int getGaji() {
+        return this.gaji;
+    }
+
+    public void setGaji(int tambahGaji) {
+        this.gaji = this.gaji + tambahGaji;
+    }
+
     public int getGajiPokok() {
         return this.gajiPokok;
     }
