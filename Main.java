@@ -26,44 +26,44 @@ public class Main {
         pns1.menyalurkanBantuan();
         rakyat1.terimaBantuan(1000000);
         System.out.println("Jumlah kekayaan rakyat1 setelah menerima bantuan: " + rakyat1.getJumlahKekayaan());
-        
-        pns1.bayarPajak();
-        System.out.println("Dana APBN: " + APBN.getDana());
 
-        System.out.println(" ");
-        System.out.println("====================================");
-        System.out.println(" ");
+        // pns1.bayarPajak();
+        // System.out.println("Dana APBN: " + APBN.getDana());
 
-        gubernur.mendataPNS(pns1);
-        gubernur.mendataPNS(pns2);
-        gubernur.mendataPNS(pns3);
-        gubernur.tambahDanaAPBN(5000000);
-        System.out.println("Dana APBN setelah ditambah Gubernur: " + APBN.getDana());
-        gubernur.getTunjangan();
-        gubernur.bayarPajak();
+        // System.out.println(" ");
+        // System.out.println("====================================");
+        // System.out.println(" ");
 
-        System.out.println(" ");
-        System.out.println("====================================");
-        System.out.println(" ");
+        // gubernur.mendataPNS(pns1);
+        // gubernur.mendataPNS(pns2);
+        // gubernur.mendataPNS(pns3);
+        // gubernur.tambahDanaAPBN(5000000);
+        // System.out.println("Dana APBN setelah ditambah Gubernur: " + APBN.getDana());
+        // gubernur.getTunjangan();
+        // gubernur.bayarPajak();
 
-        dprd1.lakukanKunjungan();
-        dprd1.lakukanKunjungan();
-        System.out.println(dprd1.tampungAspirasi("Jalan rusak"));
-        System.out.println(dprd1.tampungAspirasi("Pembangunan Sekolah"));
-        System.out.println("Tunjangan dprd sebesar : " + dprd1.getTunjangan());
-        dprd1.bayarPajak();
+        // System.out.println(" ");
+        // System.out.println("====================================");
+        // System.out.println(" ");
 
-        System.out.println(" ");
-        System.out.println("====================================");
-        System.out.println(" ");
+        // dprd1.lakukanKunjungan();
+        // dprd1.lakukanKunjungan();
+        // System.out.println(dprd1.tampungAspirasi("Jalan rusak"));
+        // System.out.println(dprd1.tampungAspirasi("Pembangunan Sekolah"));
+        // System.out.println("Tunjangan dprd sebesar : " + dprd1.getTunjangan());
+        // dprd1.bayarPajak();
 
-        rakyat1.bayarPajak();
+        // System.out.println(" ");
+        // System.out.println("====================================");
+        // System.out.println(" ");
 
-        System.out.println(" ");
-        System.out.println("====================================");
-        System.out.println(" ");
+        // rakyat1.bayarPajak();
 
-        System.out.println("Dana APBN Akhir sebesar : Rp " + APBN.getDana());
+        // System.out.println(" ");
+        // System.out.println("====================================");
+        // System.out.println(" ");
+
+        // System.out.println("Dana APBN Akhir sebesar : Rp " + APBN.getDana());
 
 
     }
