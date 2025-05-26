@@ -2,7 +2,7 @@ public class RakyatJelata {
     private String daerah;
     private int jumlahKekayaan;
 
-    PegawaiNegara pn = new PegawaiNegara();
+    APBN APBN = new APBN();
 
     public RakyatJelata(String daerah, int jumlahKekayaan) {
         this.daerah = daerah;
@@ -23,6 +23,11 @@ public class RakyatJelata {
 
     public void terimaBantuan(int tambahKekayaan) {
         this.jumlahKekayaan = this.jumlahKekayaan + tambahKekayaan;
+    }
+
+    public void bayarPajak() {
+        APBN.APBN = APBN.APBN + 500_000;
+        this.jumlahKekayaan = this.jumlahKekayaan - 500_000;
     }
     
 }
