@@ -26,7 +26,7 @@ public class PNS extends PegawaiNegara {
     public void menyalurkanBantuan() {
         for (RakyatJelata orang : rakyat) {
             if (orang.getJumlahKekayaan() <= 100_000_000) {
-                orang.setTambahKekayaan(this.getGolongan() * 1000_000);
+                orang.setTambahKekayaan(1_000_000);
             }
         }
     }

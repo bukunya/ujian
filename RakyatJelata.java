@@ -2,6 +2,8 @@ public class RakyatJelata {
     private String daerah;
     private int jumlahKekayaan;
 
+    PegawaiNegara pn = new PegawaiNegara();
+
     public RakyatJelata(String daerah, int jumlahKekayaan) {
         this.daerah = daerah;
         this.jumlahKekayaan = jumlahKekayaan;

@@ -24,7 +24,7 @@ public class Main {
         // Menampilkan jumlah kekayaan rakyat
 
         pns1.menyalurkanBantuan();
-        rakyat1.terimaBantuan(1000000);
+        rakyat1.terimaBantuan(1_000_000);
         System.out.println("Jumlah kekayaan rakyat1 setelah menerima bantuan: " + rakyat1.getJumlahKekayaan());
 
         // pns1.bayarPajak();
