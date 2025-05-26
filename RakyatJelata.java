@@ -14,5 +14,13 @@ public class RakyatJelata {
     public int getJumlahKekayaan() {
         return this.jumlahKekayaan;
     }
+
+    public void setTambahKekayaan(int tambahKekayaan) {
+         this.jumlahKekayaan = this.jumlahKekayaan + tambahKekayaan;
+    }
+
+    public void terimaBantuan(int tambahKekayaan) {
+        this.jumlahKekayaan = this.jumlahKekayaan + tambahKekayaan;
+    }
     
 }
