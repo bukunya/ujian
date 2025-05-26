@@ -1,9 +1,10 @@
 public class PegawaiNegara {
-    public static int APBN;
     private String NIP;
     private int gajiPokok;
     private String daerahKekuasaan;
     private int gaji;
+
+    APBN APBN = new APBN();
 
     public PegawaiNegara(){}
 
@@ -26,7 +27,12 @@ public class PegawaiNegara {
     }
 
     public void bayarPajak() {
-        APBN = APBN + 500_000;
+        APBN.APBN = APBN.APBN + 500_000;
         this.gaji = this.gaji - 500_000;
+    }
+
+    public void tambahDanaAPBN(int Dana) {
+        APBN.APBN = APBN.APBN + Dana;
+        this.gaji = this.gaji - Dana;
     }
 }
